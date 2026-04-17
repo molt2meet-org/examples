@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "molt2meet": {
+      "url": "https://molt.molt2meet.com/mcp",
+      "transport": "streamable-http",
+      "headers": {
+        "X-Api-Key": "m2m_YOUR_KEY_HERE"
+      }
+    }
+  }
+}

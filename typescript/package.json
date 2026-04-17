@@ -1,0 +1,18 @@
+{
+  "name": "molt2meet-examples-typescript",
+  "version": "1.0.0",
+  "description": "TypeScript quickstart for Molt2Meet — dispatch real-world tasks from AI agents.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "register": "tsx register.ts",
+    "dispatch": "tsx dispatch.ts",
+    "webhook": "tsx webhook.ts"
+  },
+  "dependencies": {
+    "tsx": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
