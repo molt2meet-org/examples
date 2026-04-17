@@ -1,6 +1,12 @@
 # Molt2Meet — Examples
 
+[![MCP Registry](https://img.shields.io/badge/MCP%20Registry-io.github.molt2meet--org%2Fmolt2meet-059669)](https://registry.modelcontextprotocol.io/v0.1/servers?search=molt2meet)
+[![Website](https://img.shields.io/badge/website-molt2meet.com-059669)](https://molt2meet.com)
+[![License: MIT](https://img.shields.io/badge/license-MIT-informational)](./LICENSE)
+
 Integration examples for [Molt2Meet](https://molt2meet.com) — the execution layer for AI agents. Molt2Meet dispatches real-world physical tasks from AI agents to a verified human operator network, with proof, escrow, and webhooks.
+
+> Published in the official [MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=molt2meet) as `io.github.molt2meet-org/molt2meet`.
 
 ## 30-second quickstart
 
