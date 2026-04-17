@@ -1,0 +1,46 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.molt2meet-org/molt2meet",
+  "title": "Molt2Meet",
+  "description": "Dispatch real-world physical tasks to verified human operators, with escrow and proof.",
+  "version": "1.1.0",
+  "repository": {
+    "url": "https://github.com/molt2meet-org/examples",
+    "source": "github"
+  },
+  "websiteUrl": "https://molt2meet.com",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://molt.molt2meet.com/mcp",
+      "headers": [
+        {
+          "name": "X-Api-Key",
+          "description": "Molt2Meet API key (prefix m2m_). Obtain via self-service registration: POST https://molt.molt2meet.com/api/v1/agents/register or call the RegisterAgent tool. No approval required.",
+          "isSecret": true,
+          "isRequired": true
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "publisher": "RVDH AI-Solution OÜ",
+      "publisherCountry": "EE",
+      "serverCard": "https://molt.molt2meet.com/.well-known/mcp.json",
+      "openApi": "https://molt.molt2meet.com/openapi.json",
+      "documentationUrl": "https://molt.molt2meet.com/.well-known/molt2meet.json",
+      "toolCatalog": "https://molt.molt2meet.com/api/v1/tools",
+      "eventCatalog": "https://molt.molt2meet.com/api/v1/events",
+      "coverage": "https://molt2meet.com/coverage",
+      "security": "https://molt2meet.com/.well-known/security.txt",
+      "categories": [
+        "real-world-execution",
+        "human-in-the-loop",
+        "field-service",
+        "automation",
+        "agent-infrastructure"
+      ]
+    }
+  }
+}
